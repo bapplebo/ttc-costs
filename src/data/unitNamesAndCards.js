@@ -409,6 +409,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_cav_demigryph_knights_1_imperial_supply: {
     name: 'Demigryph Knights (Halberds)',
     card_path: 'wh_main_emp_demigryph_knights_halberd.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh_dlc06_dwf_old_grumblers_0: { name: 'Old Grumblers', card_path: 'wh_dlc06_dwf_old_grumblers_0.png' },
   wh3_main_sla_mon_soul_grinder_0: {
@@ -456,6 +457,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_cav_demigryph_knights_0_imperial_supply: {
     name: 'Demigryph Knights',
     card_path: 'wh_main_emp_demigryph_knights.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh_pro04_brt_cav_knights_errant_ror_0: {
     name: 'Defenders of the Fleur-de-lis (Knights Errant)',
@@ -535,6 +537,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_art_helblaster_volley_gun_imperial_supply: {
     name: 'Helblaster Volley Guns',
     card_path: 'wh_main_emp_helblaster_volley_gun.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh2_main_hef_cav_silver_helms_1: {
     name: 'Silver Helms (Shields)',
@@ -723,6 +726,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_cav_reiksguard_imperial_supply: {
     name: 'Reiksguard',
     card_path: 'wh_main_emp_reiksguard.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh_dlc05_wef_cav_sisters_thorn_0: {
     name: 'Sisters of the Thorn',
@@ -775,6 +779,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_veh_war_wagon_1_imperial_supply: {
     name: 'War Wagons (Mortars)',
     card_path: 'wh2_dlc13_emp_war_wagon_mortar.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh3_main_ksl_inf_ice_guard_0: {
     name: 'Ice Guard (Glaives)',
@@ -809,6 +814,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_art_great_cannon_imperial_supply: {
     name: 'Great Cannons',
     card_path: 'wh_main_emp_cannon.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh3_main_sla_cav_hellstriders_1: {
     name: 'Hellstriders of Slaanesh (Hellscourges)',
@@ -982,10 +988,12 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_inf_huntsmen_0_imperial_supply: {
     name: 'Huntsmen',
     card_path: 'wh2_dlc13_emp_huntsmen.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh2_dlc13_emp_inf_handgunners_imperial_supply: {
     name: 'Handgunners',
     card_path: 'wh_main_emp_handgunners.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh_dlc06_grn_cav_squig_hoppers_0: {
     name: 'Night Goblin Squig Hoppers',
@@ -1052,6 +1060,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_cav_empire_knights_imperial_supply: {
     name: 'Empire Knights',
     card_path: 'wh_main_emp_empire_knights.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh3_main_ogr_inf_maneaters_1: {
     name: 'Maneaters (Ironfists)',
@@ -1205,6 +1214,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_cav_knights_blazing_sun_0_imperial_supply: {
     name: 'Knights of the Blazing Sun',
     card_path: 'wh_dlc04_emp_knights_blazing_sun.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh2_dlc17_bst_mon_jabberslythe_ror_0: {
     name: 'The Vorbergland Broodmother (Jabberslythe)',
@@ -1346,6 +1356,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_veh_luminark_of_hysh_0_imperial_supply: {
     name: 'Luminark of Hysh',
     card_path: 'wh_main_emp_luminark.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh3_main_sla_inf_daemonette_0: {
     name: 'Daemonettes of Slaanesh',
@@ -1935,6 +1946,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_inf_greatswords_imperial_supply: {
     name: 'Greatswords',
     card_path: 'wh_main_emp_greatswords.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh2_main_lzd_inf_saurus_spearmen_0: {
     name: 'Saurus Spears',
@@ -2075,6 +2087,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_art_helstorm_rocket_battery_imperial_supply: {
     name: 'Helstorm Rocket Battery',
     card_path: 'wh_main_emp_helstorm_rocket.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh2_dlc13_emp_inf_huntsmen_0: { name: 'Huntsmen', card_path: 'wh2_dlc13_emp_huntsmen.png' },
   wh3_main_ogr_mon_sabretusk_pack_0: {
@@ -2084,6 +2097,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_inf_halberdiers_imperial_supply: {
     name: 'Halberdiers',
     card_path: 'wh_main_emp_halberd.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh_main_brt_cav_mounted_yeomen_1: {
     name: 'Mounted Yeomen Archers',
@@ -2114,6 +2128,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_veh_war_wagon_0_imperial_supply: {
     name: 'War Wagons',
     card_path: 'wh2_dlc13_emp_war_wagon.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh_main_nor_cav_marauder_horsemen_0: {
     name: 'Marauder Horsemen',
@@ -2471,6 +2486,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_cav_outriders_1_imperial_supply: {
     name: 'Outriders (Grenade Launcher)',
     card_path: 'wh_main_emp_outriders_grenade_launcher.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh2_dlc14_def_cav_scourgerunner_chariot_ror_0: {
     name: 'Ravagers of Rakarth (Scourgerunner Chariots)',
@@ -2728,6 +2744,7 @@ export const unitNamesAndCards = {
   wh2_dlc13_emp_cav_pistoliers_1_imperial_supply: {
     name: 'Pistoliers',
     card_path: 'wh_main_emp_pistoliers_brace_pistols.png',
+    additionalNotes: 'This looks like a duplicate, but is actually an imperial supply unit for Markus Wulfhart.',
   },
   wh3_main_cth_mon_terracotta_sentinel_0: {
     name: 'Terracotta Sentinel',
