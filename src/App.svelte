@@ -27,7 +27,7 @@
     if (filterText.trim() !== '') {
       const newData = [];
 
-      data.forEach((faction) => {
+      originalData.forEach((faction) => {
         faction.units.forEach((unit) => {
           if (unit.name.toLowerCase().includes(filterText.toLowerCase())) {
             // todo - do this in one loop some day
