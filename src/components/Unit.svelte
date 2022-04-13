@@ -59,7 +59,7 @@
   <div class="image-placeholder">
     <IntersectionObserver let:intersecting top={400}>
       {#if intersecting}
-        <img class="unit-card" src={`assets/unit_cards/${unit.card}`} alt="Unit card" />
+        <img class="unit-card" src={`assets/unit_cards/${unit.card}.webp`} alt="Unit card" />
       {:else}
         <div class="loading-image" />
       {/if}
