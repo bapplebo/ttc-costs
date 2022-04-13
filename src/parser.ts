@@ -1,5 +1,6 @@
 import luaparse from 'luaparse';
 import { unitNamesAndCards } from './data/unitNamesAndCards.js';
+import { encode } from 'blurhash';
 
 const WH3_UNITS_KEY = 'wh3_units';
 const WH2_UNITS_KEY = 'wh2_units';
@@ -56,6 +57,7 @@ export const parseUnits = (ast, key) => {
         name: getUnitName(item.unitKey),
         card: getUnitCard(item.unitKey),
         additionalNotes: getAdditionalNotes(item.unitKey),
+        blurHash: getBlurHash(item.unitKey),
       };
     });
 
@@ -93,7 +95,7 @@ const getFaction = (unitKey) => {
   }
 
   if (unitKey.includes('_tze_')) {
-    return 'Tzeench';
+    return 'Tzeentch';
   }
 
   if (unitKey.includes('_dae_')) {
@@ -177,4 +179,32 @@ const getUnitCard = (unitKey) => {
 
 const getAdditionalNotes = (unitKey) => {
   return unitNamesAndCards[unitKey].additionalNotes || null;
+};
+
+const getBlurHash = (unitKey) => {
+  return unitNamesAndCards[unitKey].blurHash;
+};
+
+const loadImage = async (src) => {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = (...args) => reject(args);
+    img.src = src;
+  });
+};
+
+const getImageData = (image) => {
+  const canvas = document.createElement('canvas');
+  canvas.width = image.width;
+  canvas.height = image.height;
+  const context = canvas.getContext('2d');
+  context.drawImage(image, 0, 0);
+  return context.getImageData(0, 0, image.width, image.height);
+};
+
+export const encodeImageToBlurhash = async (imageUrl) => {
+  const image = await loadImage(imageUrl);
+  const imageData = getImageData(image);
+  return encode(imageData.data, imageData.width, imageData.height, 4, 4);
 };

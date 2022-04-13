@@ -1,12 +1,9 @@
 <script lang="ts">
-  import { createPopper } from '@popperjs/core';
-  import IntersectionObserver from '../IntersectionObserver.svelte';
+  import { BlurhashImage } from 'svelte-blurhash';
   import Fa from 'svelte-fa';
   import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons';
   export let unit;
 
-  let iconRef;
-  let popoverRef;
   let showTooltip = false;
 
   function getUnitName(name, key) {
@@ -57,27 +54,24 @@
 
 <li id="tooltip" class="unit">
   <div class="image-placeholder">
-    <IntersectionObserver let:intersecting top={400}>
-      {#if intersecting}
-        <img class="unit-card" src={`assets/unit_cards/${unit.card}.webp`} alt="Unit card" />
-      {:else}
-        <div class="loading-image" />
-      {/if}
-    </IntersectionObserver>
+    <div class="unit-card">
+      <BlurhashImage
+        src={`assets/unit_cards/${unit.card}.webp`}
+        hash={unit.blurHash}
+        width={46}
+        height={100}
+        fadeDuration={600}
+      />
+    </div>
   </div>
 
   <div class="unit-key">
     <div>{getUnitName(unit.name, unit.unitKey)}</div>
     {#if unit.additionalNotes}
-      <div
-        bind:this={iconRef}
-        on:mouseenter={toggleTooltip}
-        on:mouseleave={toggleTooltip}
-        class="tooltip-marker pointer"
-      >
+      <div on:mouseenter={toggleTooltip} on:mouseleave={toggleTooltip} class="tooltip-marker pointer">
         <Fa icon={faCircleQuestion} />
       </div>
-      <div bind:this={popoverRef} class={showTooltip ? 'block' : 'hidden'}>
+      <div class={showTooltip ? 'block' : 'hidden'}>
         <div class="tooltip-content">{unit.additionalNotes}</div>
       </div>
     {/if}
@@ -127,7 +121,7 @@
     border: 1px solid #111;
     height: 100px;
     width: 46px;
-    background: transparent;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
     background-size: contain;
     overflow: hidden;
     margin-right: 12px;
