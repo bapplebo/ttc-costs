@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const fetchLua = async () => {
   const response = await axios.get(
-    'https://raw.githubusercontent.com/DrunkFlamingo/df_wh3_mods/master/script/campaign/mod/ttc_vanilla_units.lua'
+    'https://raw.githubusercontent.com/DrunkFlamingo/DrunkFlamingo_TotalWarMods/master/warhammer_3/df_tabletopcaps/script/campaign/mod/ttc_vanilla_units.lua'
   );
   return response.data;
 };
