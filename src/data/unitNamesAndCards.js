@@ -4031,4 +4031,39 @@ export const unitNamesAndCards = {
     card_path: 'wh2_dlc13_lzd_razordon',
     blurHash: 'UFEC8p0N%Jt6~VWUNHxs?GNGNHaz?Gn+WBRl',
   },
+  wh3_twa06_cth_inf_dragon_guard_ror_0: {
+    name: 'Celestial Dragon Guard (The Dune Dragons)',
+    card_path: 'wh3_main_cth_inf_dragon_guard_0',
+    blurHash: 'UNGHIt^}~7$~rZ#nIqwK0OIEItNKAXOX%KKN',
+  },
+  wh3_twa06_kho_inf_bloodletters_ror_0: {
+    name: 'Exalted Bloodletters of Khorne (Hellforged Host)',
+    card_path: 'wh3_main_kho_inf_bloodletters_1',
+    blurHash: 'UjK04M$~-jxW};R+xDs-9bNINKahRkxYW;Rl',
+  },
+  wh3_twa06_ksl_inf_tzar_guard_ror_0: {
+    name: "Tzar Guard (Dazh's Hearth-blades)",
+    card_path: 'wh3_main_ksl_inf_tsar_guard_1',
+    blurHash: 'USEDC;%hM}xv.At8M|ofyEV?ROWAM|ogs,t8',
+  },
+  wh3_twa06_nur_inf_plaguebearers_ror_0: {
+    name: 'Exalted Plaguebearers of Nurgle (Festering Stooges)',
+    card_path: 'wh3_main_nur_inf_plaguebearers_2',
+    blurHash: 'UxHn.Sfks+t5~mazWBodxsWCRkWCWBaxRka#',
+  },
+  wh3_twa06_ogr_inf_maneaters_ror_0: {
+    name: 'Maneaters (Power-guts)',
+    card_path: 'wh3_main_ogr_inf_maneaters_3',
+    blurHash: 'UWFg]*NK$~of}?oeR*oeR+jFIpoL%LIpWCkC',
+  },
+  wh3_twa06_sla_inf_daemonette_ror_0: {
+    name: 'Exalted Daemonettes of Slaanesh (Bringers of Beguilement)',
+    card_path: 'wh3_main_sla_inf_daemonette_1',
+    blurHash: 'UTEe+gR.tTNE?dWBt7W90Js+V?j@9ExbM{og',
+  },
+  wh3_twa06_tze_inf_pink_horrors_ror_0: {
+    name: 'Exalted Pink Horrors of Tzeentch (Blazing Squealers)',
+    card_path: 'wh3_main_tze_inf_pink_horrors_1',
+    blurHash: 'USH0z,M{$}Rl}?RkodWEE2W=IrbaE3ofRls.',
+  },
 };

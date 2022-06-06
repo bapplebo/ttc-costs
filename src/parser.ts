@@ -4,12 +4,17 @@ import { encode } from 'blurhash';
 
 const WH3_UNITS_KEY = 'wh3_units';
 const WH2_UNITS_KEY = 'wh2_units';
+const WH3_ROR_UNITS_KEY = 'wh3_ror';
 
 const WANTED_ORDER = { core: 1, special: 2, rare: 3 };
 
 export const parseFile = (rawText) => {
   const ast = luaparse.parse(rawText);
-  const units = [...parseUnits(ast, WH3_UNITS_KEY), ...parseUnits(ast, WH2_UNITS_KEY)];
+  const units = [
+    ...parseUnits(ast, WH3_UNITS_KEY),
+    ...parseUnits(ast, WH2_UNITS_KEY),
+    ...parseUnits(ast, WH3_ROR_UNITS_KEY),
+  ];
 
   const data = [];
 
