@@ -42,3 +42,9 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 ```js
 "start": "sirv public --single"
 ```
+
+## Notes
+
+WH3 card paths to extract from RPFM:
+
+ui/units/icons

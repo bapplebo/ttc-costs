@@ -63,10 +63,11 @@ export const parseUnits = (ast, key) => {
         card: getUnitCard(item.unitKey),
         additionalNotes: getAdditionalNotes(item.unitKey),
         blurHash: getBlurHash(item.unitKey),
+        hidden: getHidden(item.unitKey),
       };
     });
 
-    return withFactionAndUnitName;
+    return withFactionAndUnitName.filter((unit) => !unit.hidden);
   } catch (e) {
     console.error('Failed to parse');
     console.error(e);
@@ -175,19 +176,37 @@ const getFaction = (unitKey) => {
 };
 
 const getUnitName = (unitKey) => {
-  return unitNamesAndCards[unitKey].name;
+  try {
+    return unitNamesAndCards[unitKey].name;
+  } catch (e) {
+    console.log('no unit name for: ', unitKey);
+  }
 };
 
 const getUnitCard = (unitKey) => {
-  return unitNamesAndCards[unitKey].card_path;
+  try {
+    return unitNamesAndCards[unitKey].card_path;
+  } catch (e) {
+    console.log('no card path for: ', unitKey);
+  }
 };
 
 const getAdditionalNotes = (unitKey) => {
-  return unitNamesAndCards[unitKey].additionalNotes || null;
+  return unitNamesAndCards[unitKey]?.additionalNotes || null;
 };
 
 const getBlurHash = (unitKey) => {
-  return unitNamesAndCards[unitKey].blurHash;
+  try {
+    return unitNamesAndCards[unitKey].blurHash;
+  } catch (e) {
+    console.log('no blurHash for: ', unitKey);
+  }
+};
+
+const getHidden = (unitKey) => {
+  try {
+    return unitNamesAndCards[unitKey].hidden;
+  } catch (e) {}
 };
 
 const loadImage = async (src) => {

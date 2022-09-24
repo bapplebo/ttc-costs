@@ -4033,37 +4033,119 @@ export const unitNamesAndCards = {
   },
   wh3_twa06_cth_inf_dragon_guard_ror_0: {
     name: 'Celestial Dragon Guard (The Dune Dragons)',
-    card_path: 'wh3_main_cth_inf_dragon_guard_0',
+    card_path: 'wh3_twa06_cth_inf_dragon_guard_ror_0',
     blurHash: 'UNGHIt^}~7$~rZ#nIqwK0OIEItNKAXOX%KKN',
   },
   wh3_twa06_kho_inf_bloodletters_ror_0: {
     name: 'Exalted Bloodletters of Khorne (Hellforged Host)',
-    card_path: 'wh3_main_kho_inf_bloodletters_1',
+    card_path: 'wh3_twa06_kho_inf_bloodletters_ror_0',
     blurHash: 'UjK04M$~-jxW};R+xDs-9bNINKahRkxYW;Rl',
   },
   wh3_twa06_ksl_inf_tzar_guard_ror_0: {
     name: "Tzar Guard (Dazh's Hearth-blades)",
-    card_path: 'wh3_main_ksl_inf_tsar_guard_1',
+    card_path: 'wh3_twa06_ksl_inf_tzar_guard_ror_0',
     blurHash: 'USEDC;%hM}xv.At8M|ofyEV?ROWAM|ogs,t8',
   },
   wh3_twa06_nur_inf_plaguebearers_ror_0: {
     name: 'Exalted Plaguebearers of Nurgle (Festering Stooges)',
-    card_path: 'wh3_main_nur_inf_plaguebearers_2',
+    card_path: 'wh3_twa06_nur_inf_plaguebearers_ror_0',
     blurHash: 'UxHn.Sfks+t5~mazWBodxsWCRkWCWBaxRka#',
   },
   wh3_twa06_ogr_inf_maneaters_ror_0: {
     name: 'Maneaters (Power-guts)',
-    card_path: 'wh3_main_ogr_inf_maneaters_3',
+    card_path: 'wh3_twa06_ogr_inf_maneaters_ror_0',
     blurHash: 'UWFg]*NK$~of}?oeR*oeR+jFIpoL%LIpWCkC',
   },
   wh3_twa06_sla_inf_daemonette_ror_0: {
     name: 'Exalted Daemonettes of Slaanesh (Bringers of Beguilement)',
-    card_path: 'wh3_main_sla_inf_daemonette_1',
+    card_path: 'wh3_twa06_sla_inf_daemonette_ror_0',
     blurHash: 'UTEe+gR.tTNE?dWBt7W90Js+V?j@9ExbM{og',
   },
   wh3_twa06_tze_inf_pink_horrors_ror_0: {
     name: 'Exalted Pink Horrors of Tzeentch (Blazing Squealers)',
-    card_path: 'wh3_main_tze_inf_pink_horrors_1',
+    card_path: 'wh3_twa06_tze_inf_pink_horrors_ror_0',
     blurHash: 'USH0z,M{$}Rl}?RkodWEE2W=IrbaE3ofRls.',
   },
+  wh3_twa07_cth_cav_jade_longma_riders_ror_0: {
+    name: 'Righteous Lances of Wei-Jin (Great Longma Riders)',
+    card_path: 'wh3_twa07_cth_cav_jade_longma_riders_ror_0',
+    blurHash: '',
+  },
+  wh3_twa07_kho_cav_bloodcrushers_ror_0: {
+    name: "Heralds of Khorne's Fury (Bloodcrushers of Khorne)",
+    card_path: 'wh3_twa07_kho_cav_bloodcrushers_ror_0',
+    blurHash: '',
+  },
+  // 24/09/2022 update
+  wh2_dlc11_cst_art_queen_bess: {
+    name: 'Queen Bess',
+    card_path: 'wh2_dlc11_cst_queen_bess',
+  },
+  wh2_dlc11_cst_cav_questing_knights_0: {
+    name: 'Damned Questing Knights',
+    card_path: 'wh2_dlc11_cst_damned_questing_knights',
+  },
+  wh2_dlc11_cst_cav_knights_of_the_realm: {
+    name: 'Damned Knights of the Realm',
+    card_path: 'wh2_dlc11_cst_damned_knights_of_the_realm',
+  },
+  wh3_main_monster_feral_ice_bears: {
+    card_path: 'wh3_main_monster_feral_ice_bears',
+    name: 'Feral Ice Bears',
+  },
+  wh3_main_monster_feral_bears: {
+    card_path: 'wh3_main_monster_feral_bears',
+    name: 'Feral Bears',
+  },
+  wh2_dlc16_wef_mon_gwindalor_summoned: {
+    name: 'Gwindalor (summoned)',
+    card_path: 'wh_dlc05_wef_great_eagle',
+    blurHash: 'UMG*Zd^*oz%2~A-oE3t6s*RjE2jY={NGs:WB',
+  },
+  wh2_dlc11_cst_cav_knights_errant_0: {
+    name: 'Damned Knights Errant',
+    card_path: 'wh2_dlc11_cst_damned_errant_knights',
+  },
+  wh2_main_hef_inf_gate_guard: {
+    name: 'Gate Guard',
+    card_path: 'wh2_main_hef_inf_gate_guard',
+  },
+  wh2_dlc16_wef_mon_ceithin_har_summoned: {
+    name: 'Ceithin-Har',
+    card_path: 'wh_dlc05_wef_forest_dragon',
+    blurHash: 'UJG[Q3X8xZj@~VNKIWRj-;?FRjaz%M?Fxtxu',
+  },
+  wh2_dlc13_huntmarshall_veh_obsinite_gyrocopter_0: {
+    name: 'Obsinite Gyrocopter',
+    card_path: 'wh_main_dwf_gyrocopter',
+    blurHash: 'ULGt{5E1s.-p9GW=RjRkRP-oofM{~An#t7R*',
+  },
+  wh3_twa07_tze_cav_doom_knights_ror_0: {
+    name: 'Knights of Immolation (Doom Knights of Tzeentch)',
+    card_path: 'wh3_twa07_tze_cav_doom_knights_ror_0',
+  },
+  wh3_twa07_sla_cav_heartseekers_of_slaanesh_ror_0: {
+    card_path: 'wh3_twa07_sla_cav_heartseekers_of_slaanesh_ror_0',
+    name: 'Eternal Entourage (Heartseekers of Slaanesh)',
+  },
+  wh3_twa07_ogr_cav_crushers_ror_0: {
+    card_path: 'wh3_twa07_ogr_cav_crushers_ror_0',
+    name: 'Sky-Striders (Crushers - Great Weapons)',
+  },
+  wh3_twa07_nur_cav_pox_riders_of_nurgle_ror_0: {
+    card_path: 'wh3_twa07_nur_cav_pox_riders_of_nurgle_ror_0',
+    name: 'Barons of the Bog (Pox Riders of Nurgle)',
+  },
+  wh3_twa07_ksl_cav_war_bear_riders_ror_0: {
+    card_path: 'wh3_twa07_ksl_cav_war_bear_riders_ror_0',
+    name: 'Oath-Brothers of Tor (War Bear Riders)',
+  },
+  // -- HIDDEN - not sure what these are, check later --
+  wh2_twa03_grn_mon_wyvern_0: {
+    hidden: true,
+  },
+  wh2_dlc17_lzd_carnosaur: {
+    hidden: true,
+  },
+  // -- HIDDEN - not sure what these are, check later --
 };

@@ -29,7 +29,7 @@
 
       originalData.forEach((faction) => {
         faction.units.forEach((unit) => {
-          if (unit.name.toLowerCase().includes(filterText.toLowerCase())) {
+          if (unit && !unit.hidden && unit.name?.toLowerCase().includes(filterText.toLowerCase())) {
             // todo - do this in one loop some day
             if (!newData.some((list) => list.faction === unit.faction)) {
               newData.push({ faction: unit.faction, units: [] });
@@ -65,7 +65,9 @@
           <div class="faction">
             <div id={faction.faction} class="faction-name">{faction.faction}</div>
             {#each faction.units as unit}
-              <Unit {unit} />
+              {#if !unit.hidden}
+                <Unit {unit} />
+              {/if}
             {/each}
           </div>
         {/each}
