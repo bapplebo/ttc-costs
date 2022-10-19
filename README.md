@@ -48,3 +48,5 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 WH3 card paths to extract from RPFM:
 
 ui/units/icons
+
+Then compress via IrfanView

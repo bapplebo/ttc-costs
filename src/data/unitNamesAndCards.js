@@ -4140,6 +4140,35 @@ export const unitNamesAndCards = {
     card_path: 'wh3_twa07_ksl_cav_war_bear_riders_ror_0',
     name: 'Oath-Brothers of Tor (War Bear Riders)',
   },
+  // -- ROR4
+  wh3_twa08_cth_mon_terracotta_sentinel_0_ror: {
+    card_path: 'wh3_twa08_cth_mon_terracotta_sentinel_0_ror',
+    name: 'The Green Guardian (Terracotta Sentniel)',
+  },
+  wh3_twa08_kho_mon_bloodthirster_0_ror: {
+    card_path: 'wh3_twa08_kho_mon_bloodthirster_0_ror',
+    name: "Khorne's Bloody Fist (Bloodthirster)",
+  },
+  wh3_twa08_ksl_mon_elemental_bear_0_ror: {
+    card_path: 'wh3_twa08_ksl_mon_elemental_bear_0_ror',
+    name: 'The Frozen Heart of Winter (Elemental Bear)',
+  },
+  wh3_twa08_nur_mon_great_unclean_one_0_ror: {
+    card_path: 'wh3_twa08_nur_mon_great_unclean_one_0_ror',
+    name: 'Uncle Furuncle (Great Unclean One)',
+  },
+  wh3_twa08_ogr_mon_stonehorn_0_ror: {
+    card_path: 'wh3_twa08_ogr_mon_stonehorn_0_ror',
+    name: 'The Snowhorn of Mourn (Stonehorn)',
+  },
+  wh3_twa08_sla_mon_keeper_of_secrets_0_ror: {
+    card_path: 'wh3_twa08_sla_mon_keeper_of_secrets_0_ror',
+    name: 'The Marquis of Masochism (Keeper of Secrets)',
+  },
+  wh3_twa08_tze_mon_lord_of_change_0_ror: {
+    card_path: 'wh3_twa08_tze_mon_lord_of_change_0_ror',
+    name: 'The Golden Griffin of Theurgy (Lord of Change)',
+  },
   // -- HIDDEN - not sure what these are, check later --
   wh2_twa03_grn_mon_wyvern_0: {
     hidden: true,
