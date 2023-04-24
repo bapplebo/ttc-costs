@@ -63,12 +63,14 @@
       <div class="faction-content">
         {#each data as faction}
           <div class="faction">
-            <div id={faction.faction} class="faction-name">{faction.faction}</div>
-            {#each faction.units as unit}
-              {#if !unit.hidden}
-                <Unit {unit} />
-              {/if}
-            {/each}
+            <details open>
+              <summary id={faction.faction} class="faction-name">{faction.faction}</summary>
+              {#each faction.units as unit}
+                {#if !unit.hidden}
+                  <Unit {unit} />
+                {/if}
+              {/each}
+            </details>
           </div>
         {/each}
         {#if !data || data.length === 0}

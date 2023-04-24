@@ -4092,10 +4092,12 @@ export const unitNamesAndCards = {
   wh3_main_monster_feral_ice_bears: {
     card_path: 'wh3_main_monster_feral_ice_bears',
     name: 'Feral Ice Bears',
+    hidden: true,
   },
   wh3_main_monster_feral_bears: {
     card_path: 'wh3_main_monster_feral_bears',
     name: 'Feral Bears',
+    hidden: true,
   },
   wh2_dlc16_wef_mon_gwindalor_summoned: {
     name: 'Gwindalor (summoned)',
@@ -4168,6 +4170,355 @@ export const unitNamesAndCards = {
   wh3_twa08_tze_mon_lord_of_change_0_ror: {
     card_path: 'wh3_twa08_tze_mon_lord_of_change_0_ror',
     name: 'The Golden Griffin of Theurgy (Lord of Change)',
+  },
+  // CHAOS DWARVES
+  wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses: {
+    card_path: 'wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses',
+    name: 'Chaos Dwarf Blunderbusses',
+  },
+  wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses_ror: {
+    card_path: 'wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses_ror',
+    name: 'The Granite Guard (Chaos Dwarf Blunderbusses)',
+  },
+  wh3_dlc23_chd_inf_chaos_dwarf_warriors: {
+    card_path: 'wh3_dlc23_chd_inf_chaos_dwarf_warriors',
+    name: 'Chaos Dwarf Warriors',
+  },
+  wh3_dlc23_chd_inf_chaos_dwarf_warriors_great_weapons: {
+    card_path: 'wh3_dlc23_chd_inf_chaos_dwarf_warriors_great_weapons',
+    name: 'Chaos Dwarf Warriors (Great Weapons)',
+  },
+  wh3_dlc23_chd_inf_chaos_dwarf_warriors_ror: {
+    card_path: 'wh3_dlc23_chd_inf_chaos_dwarf_warriors_ror',
+    name: 'The Blazing Beards of Bazherak (Chaos Dwarf Warriors)',
+  },
+  wh3_dlc23_chd_inf_goblin_labourers: {
+    card_path: 'wh3_dlc23_chd_inf_goblin_labourers',
+    name: 'Goblin Labourers',
+  },
+  wh3_dlc23_chd_inf_hobgoblin_archers: {
+    card_path: 'wh3_dlc23_chd_inf_hobgoblin_archers',
+    name: 'Hobgoblin Archers',
+  },
+  wh3_dlc23_chd_inf_hobgoblin_cutthroats: {
+    card_path: 'wh3_dlc23_chd_inf_hobgoblin_cutthroats',
+    name: 'Hobgoblin Cutthroats',
+  },
+  wh3_dlc23_chd_inf_orc_labourers: {
+    card_path: 'wh3_dlc23_chd_inf_orc_labourers',
+    name: 'Orc Labourers',
+  },
+  wh3_dlc23_chd_inf_hobgoblin_sneaky_gits: {
+    card_path: 'wh3_dlc23_chd_inf_hobgoblin_sneaky_gits',
+    name: 'Hobgoblin Sneaky Gits',
+  },
+  wh3_dlc23_chd_inf_infernal_guard: {
+    card_path: 'wh3_dlc23_chd_inf_infernal_guard',
+    name: 'Infernal Guard',
+  },
+  wh3_dlc23_chd_inf_infernal_guard_fireglaives: {
+    card_path: 'wh3_dlc23_chd_inf_infernal_guard_fireglaives',
+    name: 'Infernal Guard (Fireglaives)',
+  },
+  wh3_dlc23_chd_inf_infernal_guard_great_weapons: {
+    card_path: 'wh3_dlc23_chd_inf_infernal_guard_great_weapons',
+    name: 'Infernal Guard (Great Weapons)',
+  },
+  wh3_dlc23_chd_veh_deathshrieker_rocket_launcher: {
+    card_path: 'wh3_dlc23_chd_veh_deathshrieker_rocket_launcher',
+    name: 'Deathshrieker Rocket Launcher',
+  },
+  wh3_dlc23_chd_veh_iron_daemon: {
+    card_path: 'wh3_dlc23_chd_veh_iron_daemon',
+    name: 'Iron Daemon',
+  },
+  wh3_dlc23_chd_veh_iron_daemon_ror: {
+    card_path: 'wh3_dlc23_chd_veh_iron_daemon_ror',
+    name: "The Daemon's Tongue (Iron Daemon)",
+  },
+  wh3_dlc23_chd_veh_magma_cannon: {
+    card_path: 'wh3_dlc23_chd_veh_magma_cannon',
+    name: 'Magma Cannon',
+  },
+  wh3_dlc23_chd_veh_skullcracker: {
+    card_path: 'wh3_dlc23_chd_veh_skullcracker',
+    name: 'Skullcracker',
+  },
+  wh3_dlc23_chd_cav_bull_centaurs_axe: {
+    card_path: 'wh3_dlc23_chd_cav_bull_centaurs_axe',
+    name: 'Bull Centaur Renders',
+  },
+  wh3_dlc23_chd_cav_bull_centaurs_dual_axe: {
+    card_path: 'wh3_dlc23_chd_cav_bull_centaurs_dual_axe',
+    name: 'Bull Centaur Renders (Dual Axes)',
+  },
+  wh3_dlc23_chd_cav_bull_centaurs_dual_axe_ror: {
+    card_path: 'wh3_dlc23_chd_cav_bull_centaurs_dual_axe_ror',
+    name: "Hashut's Dark Ravagers (Bull Centaur Renders)",
+  },
+  wh3_dlc23_chd_cav_bull_centaurs_greatweapons: {
+    card_path: 'wh3_dlc23_chd_cav_bull_centaurs_greatweapons',
+    name: 'Bull Centaur Renders (Great Weapons)',
+  },
+  wh3_dlc23_chd_inf_infernal_ironsworn: {
+    card_path: 'wh3_dlc23_chd_inf_infernal_ironsworn',
+    name: 'Infernal Ironsworn',
+  },
+  wh3_dlc23_chd_inf_infernal_ironsworn_ror: {
+    card_path: 'wh3_dlc23_chd_inf_infernal_ironsworn_ror',
+    name: 'The Immortals (Infernal Ironsworn)',
+  },
+  wh3_dlc23_chd_mon_kdaai_fireborn: {
+    card_path: 'wh3_dlc23_chd_mon_kdaai_fireborn',
+    name: "K'daai Fireborn",
+  },
+  wh3_dlc23_chd_cav_hobgoblin_wolf_raiders_bows: {
+    card_path: 'wh3_dlc23_chd_cav_hobgoblin_wolf_raiders_bows',
+    name: 'Hobgoblin Wolf Raiders (Bows)',
+  },
+  wh3_dlc23_chd_cav_hobgoblin_wolf_raiders_ror: {
+    card_path: 'wh3_dlc23_chd_cav_hobgoblin_wolf_raiders_ror',
+    name: "Oglah Khan's Wolfboyz",
+  },
+  wh3_dlc23_chd_cav_hobgoblin_wolf_raiders_spears: {
+    card_path: 'wh3_dlc23_chd_cav_hobgoblin_wolf_raiders_spears',
+    name: 'Hobgoblin Wolf Raiders (Spears)',
+  },
+  wh3_dlc23_chd_mon_great_taurus: {
+    card_path: 'wh3_dlc23_chd_mon_great_taurus',
+    name: 'Great Taurus',
+  },
+  wh3_dlc23_chd_mon_lammasu: {
+    card_path: 'wh3_dlc23_chd_mon_lammasu',
+    name: 'Lammasu',
+  },
+  wh3_dlc23_chd_mon_bale_taurus: {
+    card_path: 'wh3_dlc23_chd_mon_bale_taurus',
+    name: 'Bale Taurus',
+  },
+  wh3_dlc23_chd_mon_kdaai_destroyer: {
+    card_path: 'wh3_dlc23_chd_mon_kdaai_destroyer',
+    name: "K'daai Destroyer",
+  },
+  wh3_dlc23_chd_veh_dreadquake_mortar: {
+    card_path: 'wh3_dlc23_chd_veh_dreadquake_mortar',
+    name: 'Dreadquake Mortar',
+  },
+  wh3_dlc23_chd_veh_skullcracker_1dreadquake: {
+    card_path: 'wh3_dlc23_chd_veh_dreadquake_mortar',
+    name: 'Skullcracker – Dreadquake Mortar',
+  },
+  wh3_dlc23_chd_veh_iron_daemon_ror_1dreadquake: {
+    card_path: 'wh3_dlc23_chd_veh_iron_daemon_ror',
+    name: "The Daemon's Tongue – Dreadquake Mortar",
+  },
+  wh3_dlc23_chd_veh_iron_daemon_1dreadquake: {
+    card_path: 'wh3_dlc23_chd_veh_iron_daemon',
+    name: 'Iron Daemon – Dreadquake Mortar',
+  },
+  // - DLC20 Units
+  wh3_dlc20_chs_cav_chaos_chariot_mkho: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_chariot_mkho',
+    name: 'Chaos Chariots of Khorne',
+  },
+  wh3_dlc20_chs_cav_chaos_chariot_mnur: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_chariot_mnur',
+    name: 'Chaos Chariots of Nurgle',
+  },
+  wh3_dlc20_chs_cav_chaos_chariot_msla: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_chariot_msla',
+    name: 'Chaos Chariots of Slaanesh',
+  },
+  wh3_dlc20_chs_cav_chaos_chariot_msla_ror: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_chariot_msla_ror',
+    name: 'The Sibilant Slaughtercade (Chaos Chariots)',
+  },
+  wh3_dlc20_chs_cav_chaos_chariot_mtze: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_chariot_mtze',
+    name: 'Chaos Chariots of Tzeentch',
+  },
+  wh3_dlc20_chs_inf_chaos_marauders_mkho: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_marauders_mkho',
+    name: 'Marauders of Khorne',
+  },
+  wh3_dlc20_chs_inf_chaos_marauders_mkho_dualweapons: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_marauders_mkho_dualweapons',
+    name: 'Marauders of Khorne (Dual Weapons)',
+  },
+  wh3_dlc20_chs_inf_chaos_marauders_mnur: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_marauders_mnur',
+    name: 'Marauders of Nurgle',
+  },
+  wh3_dlc20_chs_inf_chaos_marauders_mnur_greatweapons: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_marauders_mnur_greatweapons',
+    name: 'Marauders of Nurgle (Great Weapons)',
+  },
+  wh3_dlc20_chs_inf_chaos_marauders_msla: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_marauders_msla',
+    name: 'Marauders of Slaanesh',
+  },
+  wh3_dlc20_chs_inf_chaos_marauders_msla_hellscourges: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_marauders_msla_hellscourges',
+    name: 'Marauders of Slaanesh (Hellscourges)',
+  },
+  wh3_dlc20_chs_inf_chaos_marauders_mtze: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_marauders_mtze',
+    name: 'Marauders of Tzeentch',
+  },
+  wh3_dlc20_chs_inf_chaos_marauders_mtze_spears: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_marauders_mtze_spears',
+    name: 'Marauders of Tzeentch (Spears)',
+  },
+  wh3_dlc20_chs_inf_chaos_warriors_mnur: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_warriors_mnur',
+    name: 'Chaos Warriors of Nurgle',
+  },
+  wh3_dlc20_chs_inf_chaos_warriors_mnur_greatweapons: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_warriors_mnur_greatweapons',
+    name: 'Chaos Warriors of Nurgle (Great Weapons)',
+  },
+  wh3_dlc20_chs_inf_chaos_warriors_msla: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_warriors_msla',
+    name: 'Chaos Warriors of Slaanesh',
+  },
+  wh3_dlc20_chs_inf_chaos_warriors_msla_hellscourges: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_warriors_msla_hellscourges',
+    name: 'Chaos Warriors of Slaanesh (Hellscourges)',
+  },
+  wh3_dlc20_chs_inf_chaos_warriors_mtze: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_warriors_mtze',
+    name: 'Chaos Warriors of Tzeentch',
+  },
+  wh3_dlc20_chs_inf_chaos_warriors_mtze_halberds: {
+    card_path: 'wh3_dlc20_chs_inf_chaos_warriors_mtze_halberds',
+    name: 'Chaos Warriors of Tzeentch (Halberds)',
+  },
+  wh3_dlc20_chs_cav_marauder_horsemen_mkho_throwing_axes: {
+    card_path: 'wh3_dlc20_chs_cav_marauder_horsemen_mkho_throwing_axes',
+    name: 'Marauder Horsemen of Khorne (Throwing Axes)',
+  },
+  wh3_dlc20_chs_cav_marauder_horsemen_mnur_throwing_axes: {
+    card_path: 'wh3_dlc20_chs_cav_marauder_horsemen_mnur_throwing_axes',
+    name: 'Marauder Horsemen of Nurgle (Throwing Axes)',
+  },
+  wh3_dlc20_chs_cav_marauder_horsemen_msla_javelins: {
+    card_path: 'wh3_dlc20_chs_cav_marauder_horsemen_msla_javelins',
+    name: 'Marauder Horsemen of Slaanesh',
+  },
+  wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins: {
+    card_path: 'wh3_dlc20_chs_cav_marauder_horsemen_mtze_javelins',
+    name: 'Marauder Horsemen of Tzeentch',
+  },
+  wh3_dlc20_chs_inf_forsaken_mkho: {
+    card_path: 'wh3_dlc20_chs_inf_forsaken_mkho',
+    name: 'Forsaken of Khorne',
+  },
+  wh3_dlc20_chs_inf_forsaken_msla: {
+    card_path: 'wh3_dlc20_chs_inf_forsaken_msla',
+    name: 'Forsaken of Slaanesh',
+  },
+  // Special
+  wh3_dlc20_chs_inf_aspiring_champions_mtze_ror: {
+    card_path: 'wh3_dlc20_chs_inf_aspiring_champions_mtze_ror',
+    name: 'The Severed Claw (Aspiring Champions)',
+  },
+  wh3_dlc20_chs_cav_chaos_knights_mkho: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_knights_mkho',
+    name: 'Chaos Knights of Khorne',
+  },
+  wh3_dlc20_chs_cav_chaos_knights_mkho_lances: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_knights_mkho_lances',
+    name: 'Chaos Knights of Khorne (Lances)',
+  },
+  wh3_dlc20_chs_cav_chaos_knights_mnur: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_knights_mnur',
+    name: 'Chaos Knights of Nurgle',
+  },
+  wh3_dlc20_chs_cav_chaos_knights_mnur_lances: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_knights_mnur_lances',
+    name: 'Chaos Knights of Nurgle (Lances)',
+  },
+  wh3_dlc20_chs_cav_chaos_knights_msla: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_knights_msla',
+    name: 'Chaos Knights of Slaanesh',
+  },
+  wh3_dlc20_chs_cav_chaos_knights_msla_lances: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_knights_msla_lances',
+    name: 'Chaos Knights of Slaanesh (Lances)',
+  },
+  wh3_dlc20_chs_cav_chaos_knights_mtze_lances: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_knights_mtze_lances',
+    name: 'Chaos Knights of Tzeentch (Lances)',
+  },
+  wh3_dlc20_chs_inf_chosen_mkho: {
+    card_path: 'wh3_dlc20_chs_inf_chosen_mkho',
+    name: 'Chosen of Khorne',
+  },
+  wh3_dlc20_chs_inf_chosen_mkho_dualweapons: {
+    card_path: 'wh3_dlc20_chs_inf_chosen_mkho_dualweapons',
+    name: 'Chosen of Khorne (Dual Weapons)',
+  },
+  wh3_dlc20_chs_inf_chosen_mnur: {
+    card_path: 'wh3_dlc20_chs_inf_chosen_mnur',
+    name: 'Chosen of Nurgle',
+  },
+  wh3_dlc20_chs_inf_chosen_mnur_greatweapons: {
+    card_path: 'wh3_dlc20_chs_inf_chosen_mnur_greatweapons',
+    name: 'Chosen of Nurgle (Great Weapons)',
+  },
+  wh3_dlc20_chs_inf_chosen_msla: {
+    card_path: 'wh3_dlc20_chs_inf_chosen_msla',
+    name: 'Chosen of Slaanesh',
+  },
+  wh3_dlc20_chs_inf_chosen_msla: {
+    card_path: 'wh3_dlc20_chs_inf_chosen_msla',
+    name: 'Chosen of Slaanesh (Hellscourges)',
+  },
+  wh3_dlc20_chs_inf_chosen_msla_hellscourges: {
+    card_path: 'wh3_dlc20_chs_inf_chosen_msla_hellscourges',
+    name: 'Chosen of Slaanesh (Hellscourges)',
+  },
+  wh3_dlc20_chs_inf_chosen_mtze: {
+    card_path: 'wh3_dlc20_chs_inf_chosen_mtze',
+    name: 'Chosen of Tzeentch',
+  },
+  wh3_dlc20_chs_inf_chosen_mtze_halberds: {
+    card_path: 'wh3_dlc20_chs_inf_chosen_mtze_halberds',
+    name: 'Chosen of Tzeentch (Halberds)',
+  },
+  wh3_dlc20_chs_mon_warshrine: {
+    card_path: 'wh3_dlc20_chs_mon_warshrine',
+    name: 'Chaos Warshrine',
+  },
+  wh3_dlc20_chs_mon_warshrine_mkho: {
+    card_path: 'wh3_dlc20_chs_mon_warshrine_mkho',
+    name: 'Chaos Warshrine of Khorne',
+  },
+  wh3_dlc20_chs_mon_warshrine_mnur: {
+    card_path: 'wh3_dlc20_chs_mon_warshrine_mnur',
+    name: 'Chaos Warshrine of Nurgle',
+  },
+  wh3_dlc20_chs_mon_warshrine_msla: {
+    card_path: 'wh3_dlc20_chs_mon_warshrine_msla',
+    name: 'Chaos Warshrine of Slaanesh',
+  },
+  wh3_dlc20_chs_mon_warshrine_mtze: {
+    card_path: 'wh3_dlc20_chs_mon_warshrine_mtze',
+    name: 'Chaos Warshrine of Tzeentch',
+  },
+  // Rare
+  wh3_dlc20_chs_mon_giant_mnur_ror: {
+    card_path: 'wh3_dlc20_chs_mon_giant_mnur_ror',
+    name: 'Bilious Thunderguff (Chaos Giant)',
+  },
+  wh3_dlc20_kho_cav_skullcrushers_mkho_ror: {
+    card_path: 'wh3_dlc20_kho_cav_skullcrushers_mkho_ror',
+    name: 'Knights of the Brazen Throne (Skullcrushers of Khorne)',
+  },
+  wh3_main_nur_mon_spawn_of_nurgle_0_warriors: {
+    card_path: 'wh3_main_nur_mon_spawn_of_nurgle_0',
+    name: 'Spawn of Nurgle',
+    faction_override: 'chs',
   },
   // -- HIDDEN - not sure what these are, check later --
   wh2_twa03_grn_mon_wyvern_0: {

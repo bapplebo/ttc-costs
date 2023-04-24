@@ -5,6 +5,8 @@ import { encode } from 'blurhash';
 const WH3_UNITS_KEY = 'wh3_units';
 const WH2_UNITS_KEY = 'wh2_units';
 const WH3_ROR_UNITS_KEY = 'wh3_ror';
+const WH3_CHD_UNITS_KEY = 'chorfs_dlc_units';
+const WH3_DLC20_KEY = 'dlc20_units';
 
 const WANTED_ORDER = { core: 1, special: 2, rare: 3 };
 
@@ -14,12 +16,14 @@ export const parseFile = (rawText) => {
     ...parseUnits(ast, WH3_UNITS_KEY),
     ...parseUnits(ast, WH2_UNITS_KEY),
     ...parseUnits(ast, WH3_ROR_UNITS_KEY),
+    ...parseUnits(ast, WH3_DLC20_KEY),
+    ...parseUnits(ast, WH3_CHD_UNITS_KEY),
   ];
 
   const data = [];
 
   units.forEach((unit) => {
-    // todo - do this in one loop some day
+    // If the faction doesn't exist, add it to our data list
     if (!data.some((list) => list.faction === unit.faction)) {
       data.push({ faction: unit.faction, units: [] });
     }
@@ -75,7 +79,13 @@ export const parseUnits = (ast, key) => {
   }
 };
 
-const getFaction = (unitKey) => {
+const getFaction = (_unitKey) => {
+  let unitKey = _unitKey;
+  // Handle overridden unit keys
+  if (unitNamesAndCards[_unitKey].faction_override) {
+    unitKey = `_${unitNamesAndCards[_unitKey].faction_override}_`;
+  }
+
   if (unitKey.includes('_kho_')) {
     return 'Khorne';
   }
@@ -170,6 +180,10 @@ const getFaction = (unitKey) => {
 
   if (unitKey.includes('_cst_')) {
     return 'Vampire Coast';
+  }
+
+  if (unitKey.includes('_chd_')) {
+    return 'Chaos Dwarfs';
   }
 
   return 'Unknown';
