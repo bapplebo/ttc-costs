@@ -43,7 +43,6 @@
   }
 
   function toggleTooltip() {
-    console.log('check toggle');
     if (showTooltip) {
       showTooltip = false;
     } else {
