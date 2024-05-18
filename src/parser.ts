@@ -6,9 +6,14 @@ const WH3_UNITS_KEY = 'wh3_units';
 const WH2_UNITS_KEY = 'wh2_units';
 const WH3_ROR_UNITS_KEY = 'wh3_ror';
 const WH3_CHD_UNITS_KEY = 'chorfs_dlc_units';
+const CONTROVERSIAL_DLC_UNITS = 'controversial_dlc_units';
+const REPUTATION_SALVAGING_DLC_UNITS = 'reputation_salvaging_dlc_units';
 const WH3_DLC20_KEY = 'dlc20_units';
+const DLC_25_UNITS = 'dlc_25_units';
 
 const WANTED_ORDER = { core: 1, special: 2, rare: 3 };
+
+const missingNameImage = [];
 
 export const parseFile = (rawText) => {
   const ast = luaparse.parse(rawText);
@@ -18,6 +23,9 @@ export const parseFile = (rawText) => {
     ...parseUnits(ast, WH3_ROR_UNITS_KEY),
     ...parseUnits(ast, WH3_DLC20_KEY),
     ...parseUnits(ast, WH3_CHD_UNITS_KEY),
+    ...parseUnits(ast, CONTROVERSIAL_DLC_UNITS),
+    ...parseUnits(ast, REPUTATION_SALVAGING_DLC_UNITS),
+    ...parseUnits(ast, DLC_25_UNITS),
   ];
 
   const data = [];
@@ -71,9 +79,10 @@ export const parseUnits = (ast, key) => {
       };
     });
 
+    console.log(missingNameImage);
     return withFactionAndUnitName.filter((unit) => !unit.hidden);
   } catch (e) {
-    console.error('Failed to parse');
+    console.error('Failed to parse for key: ', key);
     console.error(e);
     return [];
   }
@@ -81,9 +90,14 @@ export const parseUnits = (ast, key) => {
 
 const getFaction = (_unitKey) => {
   let unitKey = _unitKey;
+
   // Handle overridden unit keys
-  if (unitNamesAndCards[_unitKey].faction_override) {
-    unitKey = `_${unitNamesAndCards[_unitKey].faction_override}_`;
+  try {
+    if (unitNamesAndCards[_unitKey].faction_override) {
+      unitKey = `_${unitNamesAndCards[_unitKey].faction_override}_`;
+    }
+  } catch (e) {
+    console.error('Potential missing image');
   }
 
   if (unitKey.includes('_kho_')) {
@@ -194,6 +208,7 @@ const getUnitName = (unitKey) => {
     return unitNamesAndCards[unitKey].name;
   } catch (e) {
     console.log('no unit name for: ', unitKey);
+    missingNameImage.push(unitKey);
   }
 };
 

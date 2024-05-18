@@ -204,6 +204,11 @@ export const unitNamesAndCards = {
     card_path: 'wh_dlc08_nor_war_mammoth_feral',
     blurHash: 'URE|C^_3xukC.8t7WBR*?wV@M{bI?v%gV@og',
   },
+  wh3_dlc25_nur_chieftain_mon_war_mammoth_0: {
+    name: 'Feral Mammoth',
+    card_path: 'wh_dlc08_nor_war_mammoth_feral',
+    blurHash: 'URE|C^_3xukC.8t7WBR*?wV@M{bI?v%gV@og',
+  },
   wh2_dlc12_skv_inf_plague_monk_censer_bearer_ror_0: {
     name: "Blightscab's Plaguepack (Plague Monk Censer Bearers)",
     card_path: 'wh2_dlc12_skv_inf_plague_monk_censer_bearer_ror',
@@ -290,6 +295,11 @@ export const unitNamesAndCards = {
     blurHash: 'UEB{=DRjRkWW~nt5IpWCIoayWCj?4;WCWBt6',
   },
   wh_dlc08_nor_mon_fimir_0: {
+    name: 'Fimir Warriors',
+    card_path: 'wh_dlc08_nor_fimir_warriors',
+    blurHash: 'UHAns4aKtnkXyGMwozoztot8R4ROaix]Vrj[',
+  },
+  wh3_dlc25_nur_chieftain_mon_fimir_0: {
     name: 'Fimir Warriors',
     card_path: 'wh_dlc08_nor_fimir_warriors',
     blurHash: 'UHAns4aKtnkXyGMwozoztot8R4ROaix]Vrj[',
@@ -405,6 +415,11 @@ export const unitNamesAndCards = {
     blurHash: 'URC@NXV@RPW.?]ofMyo|NatQRPj[M|R*aeR6',
   },
   wh_main_chs_art_hellcannon: {
+    name: 'Hellcannon',
+    card_path: 'wh_main_chs_hellcannon',
+    blurHash: 'U5Bn}?M~0k?CWAr]V]$~06xW}:Ir0k%0-l5B',
+  },
+  wh3_dlc25_nur_chieftain_art_hellcannon: {
     name: 'Hellcannon',
     card_path: 'wh_main_chs_hellcannon',
     blurHash: 'U5Bn}?M~0k?CWAr]V]$~06xW}:Ir0k%0-l5B',
@@ -545,6 +560,11 @@ export const unitNamesAndCards = {
     blurHash: 'UTGtrx~7-SRkIYV]r@WDs9R+kBt5-,t5t5s.',
   },
   wh_dlc03_bst_inf_cygor_0: {
+    name: 'Cygor',
+    card_path: 'wh_dlc03_bst_cygor',
+    blurHash: 'UAA_9Axt*Ipb.SkqkWRk8|S6MKn4%#RPj?oy',
+  },
+  wh3_dlc25_nur_chieftain_inf_cygor_0: {
     name: 'Cygor',
     card_path: 'wh_dlc03_bst_cygor',
     blurHash: 'UAA_9Axt*Ipb.SkqkWRk8|S6MKn4%#RPj?oy',
@@ -1053,6 +1073,11 @@ export const unitNamesAndCards = {
     card_path: 'wh_dlc06_chs_aspiring_champions',
     blurHash: 'URBNTha#IqWB%%ozRPjuObRis,V@xun~RjWB',
   },
+  wh3_dlc25_nur_chieftain_inf_aspiring_champions_0: {
+    name: 'Aspiring Champions',
+    card_path: 'wh_dlc06_chs_aspiring_champions',
+    blurHash: 'URBNTha#IqWB%%ozRPjuObRis,V@xun~RjWB',
+  },
   wh_dlc08_nor_art_hellcannon_battery: {
     name: 'The Ice-Forged Legion',
     card_path: 'wh_dlc08_nor_art_hellcannon_god',
@@ -1393,6 +1418,11 @@ export const unitNamesAndCards = {
     blurHash: 'UsJY::S2$hj[}=oJR+R+V]n%I=R+r@NHS3oL',
   },
   wh2_main_lzd_mon_carnosaur_0: {
+    name: 'Feral Carnosaur',
+    card_path: 'wh2_main_lzd_mon_carnosaur',
+    blurHash: 'UjG%JLxZrtxY}qs.jGsmw^oLS4WWRln*S4R+',
+  },
+  wh3_dlc24_lzd_mon_carnosaur_0: {
     name: 'Feral Carnosaur',
     card_path: 'wh2_main_lzd_mon_carnosaur',
     blurHash: 'UjG%JLxZrtxY}qs.jGsmw^oLS4WWRln*S4R+',
@@ -1930,6 +1960,11 @@ export const unitNamesAndCards = {
     card_path: 'wh_dlc03_bst_centigors_throwing_axes',
     blurHash: 'UOE.Rwf5-oxt~VRkoMt6RlofRkWC9Z%1RjRk',
   },
+  wh3_dlc25_nur_chieftain_inf_centigors_1: {
+    name: 'Centigors (Throwing Axes)',
+    card_path: 'wh_dlc03_bst_centigors_throwing_axes',
+    blurHash: 'UOE.Rwf5-oxt~VRkoMt6RlofRkWC9Z%1RjRk',
+  },
   wh2_dlc15_hef_mon_forest_dragon_imrik: {
     name: 'Bruwor, Protector of Life',
     card_path: 'wh2_dlc15_hef_forest_dragon_imrik_special',
@@ -1981,6 +2016,11 @@ export const unitNamesAndCards = {
     blurHash: 'U47-i[%f_MWY.TIBf,kCI]RPIVae?bt6xZMy',
   },
   wh_dlc01_chs_mon_dragon_ogre_shaggoth: {
+    name: 'Dragon Ogre Shaggoth',
+    card_path: 'wh_dlc01_chs_dragon_ogre_shaggoth',
+    blurHash: 'UFCiUEV@ayoL~XIoIooLkDR%IUofnixFRit7',
+  },
+  wh3_dlc25_nur_chieftain_mon_dragon_ogre_shaggoth: {
     name: 'Dragon Ogre Shaggoth',
     card_path: 'wh_dlc01_chs_dragon_ogre_shaggoth',
     blurHash: 'UFCiUEV@ayoL~XIoIooLkDR%IUofnixFRit7',
@@ -2232,6 +2272,11 @@ export const unitNamesAndCards = {
     blurHash: 'UTIrZ[4-T}57U^M_o~R+s;-pM{RjS#bbWDoz',
   },
   wh_dlc08_nor_mon_war_mammoth_1: {
+    name: 'War Mammoth',
+    card_path: 'wh_dlc08_nor_war_mammoth_howdah',
+    blurHash: 'UDEq8K00Di%#uODPxa%zdB.8MJoz9Z%#ofX7',
+  },
+  wh3_dlc25_nur_chieftain_mon_war_mammoth_1: {
     name: 'War Mammoth',
     card_path: 'wh_dlc08_nor_war_mammoth_howdah',
     blurHash: 'UDEq8K00Di%#uODPxa%zdB.8MJoz9Z%#ofX7',
@@ -2691,6 +2736,10 @@ export const unitNamesAndCards = {
     card_path: 'wh_main_dwf_grudge_thrower',
     blurHash: 'UmG9%Djsaeo#S,tQt6tR%%RjV@kDIYRjozWC',
   },
+  wh3_dlc25_dwf_art_grudge_thrower_grudge_reward: {
+    name: 'Grudge Throwers',
+    hidden: true,
+  },
   wh3_main_kho_mon_soul_grinder_0: {
     name: 'Soul Grinder (Khorne)',
     card_path: 'wh3_main_kho_mon_soul_grinder_0',
@@ -2723,6 +2772,11 @@ export const unitNamesAndCards = {
     blurHash: 'UXFFyM^~xpt6~lxsaebFxUIXIXRkxVV[M}Rk',
   },
   wh_dlc08_nor_mon_frost_wyrm_0: {
+    name: 'Frost-Wyrm',
+    card_path: 'wh_dlc08_nor_frost_wyrm',
+    blurHash: 'UDB#VW8^ZNR54.%MHrt6DOtlR-ofqtM}.mR%',
+  },
+  wh3_dlc25_nur_chieftain_mon_frost_wyrm_0: {
     name: 'Frost-Wyrm',
     card_path: 'wh_dlc08_nor_frost_wyrm',
     blurHash: 'UDB#VW8^ZNR54.%MHrt6DOtlR-ofqtM}.mR%',
@@ -2818,6 +2872,11 @@ export const unitNamesAndCards = {
     blurHash: 'UMCZz_xuIAxu?^o#RjofD%t7t7RQ9FkBt7Rj',
   },
   wh_dlc08_nor_mon_fimir_1: {
+    name: 'Fimir Warriors (Great Weapons)',
+    card_path: 'wh_dlc08_nor_fimir_warriors_great_weapons',
+    blurHash: 'U9CZhhXT?wRi0f-=M{WBSk4.DhfkIo?bsRf6',
+  },
+  wh3_dlc25_nur_chieftain_mon_fimir_1: {
     name: 'Fimir Warriors (Great Weapons)',
     card_path: 'wh_dlc08_nor_fimir_warriors_great_weapons',
     blurHash: 'U9CZhhXT?wRi0f-=M{WBSk4.DhfkIo?bsRf6',
@@ -3219,6 +3278,11 @@ export const unitNamesAndCards = {
     card_path: 'wh_dlc08_nor_skin_wolves',
     blurHash: 'UUA_6jo$RPk9%%ogRPadtoaeacbEMxV@jXax',
   },
+  wh3_dlc25_nur_chieftain_mon_skinwolves_0: {
+    name: 'Skin Wolves',
+    card_path: 'wh_dlc08_nor_skin_wolves',
+    blurHash: 'UUA_6jo$RPk9%%ogRPadtoaeacbEMxV@jXax',
+  },
   wh2_main_def_inf_bleakswords_0: {
     name: 'Bleakswords',
     card_path: 'wh2_main_def_bleakswords',
@@ -3345,6 +3409,11 @@ export const unitNamesAndCards = {
     blurHash: 'UDDT3T00%1x]Iv-;M_Rj00?wM{RPI9NH%NRj',
   },
   wh2_dlc17_bst_mon_ghorgon_0: {
+    name: 'Ghorgon',
+    card_path: 'wh2_dlc17_bst_mon_ghorgon',
+    blurHash: 'UBDt|Zt6}q$~-BjFIqNH5S%09_t6$gSfR+WV',
+  },
+  wh3_dlc25_nur_chieftain_mon_ghorgon: {
     name: 'Ghorgon',
     card_path: 'wh2_dlc17_bst_mon_ghorgon',
     blurHash: 'UBDt|Zt6}q$~-BjFIqNH5S%09_t6$gSfR+WV',
@@ -4176,6 +4245,10 @@ export const unitNamesAndCards = {
     card_path: 'wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses',
     name: 'Chaos Dwarf Blunderbusses',
   },
+  wh3_dlc25_nur_chieftain_inf_chaos_dwarf_blunderbusses: {
+    card_path: 'wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses',
+    name: 'Chaos Dwarf Blunderbusses',
+  },
   wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses_ror: {
     card_path: 'wh3_dlc23_chd_inf_chaos_dwarf_blunderbusses_ror',
     name: 'The Granite Guard (Chaos Dwarf Blunderbusses)',
@@ -4217,6 +4290,10 @@ export const unitNamesAndCards = {
     name: 'Infernal Guard',
   },
   wh3_dlc23_chd_inf_infernal_guard_fireglaives: {
+    card_path: 'wh3_dlc23_chd_inf_infernal_guard_fireglaives',
+    name: 'Infernal Guard (Fireglaives)',
+  },
+  wh3_dlc25_nur_chieftain_inf_infernal_guard_fireglaives: {
     card_path: 'wh3_dlc23_chd_inf_infernal_guard_fireglaives',
     name: 'Infernal Guard (Fireglaives)',
   },
@@ -4304,6 +4381,10 @@ export const unitNamesAndCards = {
     card_path: 'wh3_dlc23_chd_veh_dreadquake_mortar',
     name: 'Dreadquake Mortar',
   },
+  wh3_dlc25_nur_chieftain_veh_dreadquake_mortar: {
+    card_path: 'wh3_dlc23_chd_veh_dreadquake_mortar',
+    name: 'Dreadquake Mortar',
+  },
   wh3_dlc23_chd_veh_skullcracker_1dreadquake: {
     card_path: 'wh3_dlc23_chd_veh_dreadquake_mortar',
     name: 'Skullcracker – Dreadquake Mortar',
@@ -4322,6 +4403,10 @@ export const unitNamesAndCards = {
     name: 'Chaos Chariots of Khorne',
   },
   wh3_dlc20_chs_cav_chaos_chariot_mnur: {
+    card_path: 'wh3_dlc20_chs_cav_chaos_chariot_mnur',
+    name: 'Chaos Chariots of Nurgle',
+  },
+  wh3_dlc25_nur_chieftain_cav_chaos_chariot_mnur: {
     card_path: 'wh3_dlc20_chs_cav_chaos_chariot_mnur',
     name: 'Chaos Chariots of Nurgle',
   },
@@ -4528,4 +4613,305 @@ export const unitNamesAndCards = {
     hidden: true,
   },
   // -- HIDDEN - not sure what these are, check later --
+  wh2_dlc17_dwf_mon_carnosaur_thorek_0: {
+    card_path: 'wh2_dlc17_dwf_mon_carnosaur_thorek_0',
+    name: 'Yoked Carnosaur',
+  },
+  wh3_dlc24_cth_inf_dragon_guard_crossbowmen_ror: {
+    card_path: 'wh3_dlc24_cth_inf_dragon_guard_crossbowmen_ror',
+    name: 'The Grace of Quai Yin (Celestial Dragon Crossbows)',
+  },
+  wh3_dlc24_cth_inf_onyx_crowmen: {
+    card_path: 'wh3_dlc24_cth_inf_onyx_crowmen',
+    name: 'Onyx Crowmen',
+  },
+  wh3_dlc24_cth_inf_onyx_crowmen_ror: {
+    card_path: 'wh3_dlc24_cth_inf_onyx_crowmen_ror',
+    name: 'Empress Crowmen (Onyx Crowmen)',
+  },
+  wh3_dlc24_cth_mon_celestial_lion: {
+    card_path: 'wh3_dlc24_cth_mon_celestial_lion',
+    name: 'Celestial Lion',
+  },
+  wh3_dlc24_cth_mon_great_moon_bird: {
+    card_path: 'wh3_dlc24_cth_mon_great_moon_bird',
+    name: 'Great Moon Bird',
+  },
+  wh3_dlc24_cth_mon_jade_lion: {
+    card_path: 'wh3_dlc24_cth_mon_jade_lion',
+    name: 'Jade Lion',
+  },
+  wh3_dlc24_cth_mon_jet_lion: {
+    card_path: 'wh3_dlc24_cth_mon_jet_lion',
+    name: 'Jet Lion',
+  },
+  wh3_dlc24_cth_veh_zhangu_war_drum: {
+    card_path: 'wh3_dlc24_cth_veh_zhangu_war_drum',
+    name: 'Zhangu War Drum',
+  },
+  wh3_dlc24_cth_veh_zhangu_war_drum_ror: {
+    card_path: 'wh3_dlc24_cth_veh_zhangu_war_drum_ror',
+    name: 'The Jade War Drum (Zhangu War Drum)',
+  },
+  wh3_dlc24_ksl_inf_akshina_ambushers: {
+    card_path: 'wh3_dlc24_ksl_inf_akshina_ambushers',
+    name: 'Akshina Ambushers',
+  },
+  wh3_dlc24_ksl_inf_akshina_ambushers_ror: {
+    card_path: 'wh3_dlc24_ksl_inf_akshina_ambushers_ror',
+    name: 'The Wolfhearts (Akshina Ambushers)',
+  },
+  wh3_dlc24_ksl_inf_kislevite_warriors: {
+    card_path: 'wh3_dlc24_ksl_inf_kislevite_warriors',
+    name: 'Kislevite Warriors',
+  },
+  wh3_dlc24_ksl_inf_streltsi_ror: {
+    card_path: 'wh3_dlc24_ksl_inf_streltsi_ror',
+    name: "Boydinov's Brawlers (Streltsi)",
+  },
+  wh3_dlc24_ksl_mon_frost_wyrm: {
+    card_path: 'wh3_dlc24_ksl_mon_frost_wyrm',
+    name: 'Frost Wyrm',
+  },
+  wh3_dlc24_ksl_mon_incarnate_elemental_of_beasts: {
+    card_path: 'wh3_dlc24_ksl_mon_incarnate_elemental_of_beasts',
+    name: 'Incarnate Elemental of Beasts',
+  },
+  wh3_dlc24_bst_mon_incarnate_elemental_of_beasts: {
+    card_path: 'wh3_dlc24_ksl_mon_incarnate_elemental_of_beasts',
+    name: 'Incarnate Elemental of Beasts',
+  },
+  wh3_dlc24_ksl_mon_the_things_in_the_woods: {
+    card_path: 'wh3_dlc24_ksl_mon_the_things_in_the_woods',
+    name: 'The Things in the Woods',
+  },
+  wh3_dlc24_ksl_mon_the_things_in_the_woods_ror: {
+    card_path: 'wh3_dlc24_ksl_mon_the_things_in_the_woods_ror',
+    name: 'The Mordheim Balewolves (The Things in the Woods)',
+  },
+  wh3_dlc24_tze_inf_centigors_great_weapons: {
+    card_path: 'wh3_dlc24_tze_inf_centigors_great_weapons',
+    name: 'Centigors of Tzeentch',
+  },
+  wh3_dlc24_bst_inf_centigors_great_weapons_mtze: {
+    card_path: 'wh3_dlc24_tze_inf_centigors_great_weapons',
+    name: 'Centigors of Tzeentch',
+  },
+  wh3_dlc24_tze_inf_pink_horrors_ror: {
+    card_path: 'wh3_dlc24_tze_inf_pink_horrors_ror',
+    name: 'The Sourguts (Pink Horrors of Tzeentch)',
+  },
+  wh3_dlc24_tze_inf_tzaangors: {
+    card_path: 'wh3_dlc24_tze_inf_tzaangors',
+    name: 'Tzaangors',
+  },
+  wh3_dlc24_bst_inf_tzaangors: {
+    card_path: 'wh3_dlc24_tze_inf_tzaangors',
+    name: 'Tzaangors',
+  },
+  wh3_dlc24_tze_mon_cockatrice: {
+    card_path: 'wh3_dlc24_tze_mon_cockatrice',
+    name: 'Cockatrice',
+  },
+  wh3_dlc24_tze_mon_flamers_changebringers: {
+    card_path: 'wh3_dlc24_tze_mon_flamers_changebringers',
+    name: 'Changebringers',
+  },
+  wh3_dlc24_tze_mon_mutalith_vortex_beast: {
+    card_path: 'wh3_dlc24_tze_mon_mutalith_vortex_beast',
+    name: 'Mutalith Vortex Beast',
+  },
+  wh3_dlc24_tze_mon_mutalith_vortex_beast_ror: {
+    card_path: 'wh3_dlc24_tze_mon_mutalith_vortex_beast_ror',
+    name: 'Aeson the Fallen (Mutalith Vortex Beast)',
+  },
+  wh3_dlc24_tze_mon_screamers_ror: {
+    card_path: 'wh3_dlc24_tze_mon_screamers_ror',
+    name: 'Shrieking Skyrays (Screamers of Tzeentch)',
+  },
+  wh3_dlc25_dwf_art_goblin_hewer: {
+    card_path: 'wh3_dlc25_dwf_art_goblin_hewer',
+    name: 'Goblin Hewer',
+  },
+  wh3_dlc25_dwf_art_goblin_hewer_malakai: {
+    card_path: 'wh3_dlc25_dwf_art_goblin_hewer',
+    name: 'Goblin Hewer (Malakai)',
+  },
+  wh3_dlc25_dwf_inf_doomseekers: {
+    card_path: 'wh3_dlc25_dwf_inf_doomseekers',
+    name: 'Doomseekers',
+  },
+  wh3_dlc25_dwf_inf_doomseekers_ror: {
+    card_path: 'wh3_dlc25_dwf_inf_doomseekers_ror',
+    name: 'The Brotherhood of Grimnir (Doomseekers)',
+  },
+  wh3_dlc25_dwf_inf_slayer_pirates: {
+    card_path: 'wh3_dlc25_dwf_inf_slayer_pirates',
+    name: 'Slayer Pirates',
+  },
+  wh3_dlc25_dwf_inf_slayer_pirates_ror: {
+    card_path: 'wh3_dlc25_dwf_inf_slayer_pirates_ror',
+    name: "Long Drong's Slayer Pirates",
+  },
+  wh3_dlc25_dwf_inf_thunderers_grudge_rakers: {
+    card_path: 'wh3_dlc25_dwf_inf_thunderers_grudge_rakers',
+    name: 'Thunderers (Grudge-rakers)',
+  },
+  wh3_dlc25_dwf_inf_thunderers_ror: {
+    card_path: 'wh3_dlc25_dwf_inf_thunderers_ror',
+    name: 'The Grimdelvers (Thunderers)',
+  },
+  wh3_dlc25_dwf_veh_thunderbarge: {
+    card_path: 'wh3_dlc25_dwf_veh_thunderbarge',
+    name: 'Thunderbarge',
+  },
+  wh3_dlc25_dwf_veh_thunderbarge_malakai: {
+    card_path: 'wh3_dlc25_dwf_veh_thunderbarge',
+    name: 'Thunderbarge (Malakai)',
+  },
+  wh3_dlc25_dwf_veh_thunderbarge_grungni: {
+    card_path: 'wh3_dlc25_dwf_veh_thunderbarge_grungni',
+    name: 'The Spirit of Grungni',
+  },
+  wh3_dlc25_emp_art_helstorm_rocket_battery_morr: {
+    card_path: 'wh3_dlc25_emp_art_helstorm_rocket_battery_morr',
+    name: 'Amethyst Helstorm Rocket Battery',
+  },
+  wh3_dlc25_emp_cav_knights_of_the_black_rose: {
+    card_path: 'wh3_dlc25_emp_cav_knights_of_the_black_rose',
+    name: 'Knights of the Black Rose',
+  },
+  wh3_dlc25_emp_cav_outriders_morr: {
+    card_path: 'wh3_dlc25_emp_cav_outriders_morr',
+    name: 'Amethyst Outriders',
+  },
+  wh3_dlc25_emp_inf_hochland_long_rifles: {
+    card_path: 'wh3_dlc25_emp_inf_hochland_long_rifles',
+    name: 'Hochland Long Rifles',
+  },
+  wh3_dlc25_emp_inf_hochland_long_rifles_ror: {
+    card_path: 'wh3_dlc25_emp_inf_hochland_long_rifles_ror',
+    name: 'The Hergig Jaegerkorps (Hochland Long Rifles)',
+  },
+  wh3_dlc25_emp_inf_nuln_ironsides: {
+    card_path: 'wh3_dlc25_emp_inf_nuln_ironsides',
+    name: 'Nuln Ironsides',
+  },
+  wh3_dlc25_emp_inf_nuln_ironsides_morr: {
+    card_path: 'wh3_dlc25_emp_inf_nuln_ironsides_morr',
+    name: 'Amethyst Ironsides',
+  },
+  wh3_dlc25_emp_inf_spearmen_shields_ror: {
+    card_path: 'wh3_dlc25_emp_inf_spearmen_shields_ror',
+    name: "Grundel's Defenders (Spearmen - Shields)",
+  },
+  wh3_dlc25_emp_veh_marienburg_land_ship: {
+    card_path: 'wh3_dlc25_emp_veh_marienburg_land_ship',
+    name: 'Land Ship',
+  },
+  wh3_dlc25_emp_veh_marienburg_land_ship_morr: {
+    card_path: 'wh3_dlc25_emp_veh_marienburg_land_ship_morr',
+    name: 'Amethyst Land Ship',
+  },
+  wh3_dlc25_emp_veh_marienburg_land_ship_ror: {
+    card_path: 'wh3_dlc25_emp_veh_marienburg_land_ship_ror',
+    name: 'The Wonder of the Age (Land Ship)',
+  },
+  wh3_dlc25_emp_veh_steam_tank_volley_gun: {
+    card_path: 'wh3_dlc25_emp_veh_steam_tank_volley_gun',
+    name: 'Steam Tank (Volley Gun)',
+  },
+  wh3_dlc25_nur_cav_plague_drones_1_ror: {
+    card_path: 'wh3_dlc25_nur_cav_plague_drones_1_ror',
+    name: "The Angels of Decay (Plague Drones \u2013 Death's Heads)",
+  },
+  wh3_dlc25_nur_cav_rot_knights: {
+    card_path: 'wh3_dlc25_nur_cav_rot_knights',
+    name: 'Rot Knights',
+  },
+  wh3_dlc25_nur_chieftain_cav_rot_knights: {
+    card_path: 'wh3_dlc25_nur_cav_rot_knights',
+    name: 'Rot Knights (Chieftan)',
+  },
+  wh3_dlc25_nur_cav_rot_knights_ror: {
+    card_path: 'wh3_dlc25_nur_cav_rot_knights_ror',
+    name: 'The Rotting Riders (Rot Knights)',
+  },
+  wh3_dlc25_nur_inf_pestigors: {
+    card_path: 'wh3_dlc25_nur_inf_pestigors',
+    name: 'Pestigors',
+  },
+  wh3_dlc25_bst_inf_pestigors: {
+    card_path: 'wh3_dlc25_nur_inf_pestigors',
+    name: 'Pestigors',
+  },
+  wh3_dlc25_nur_inf_plague_ogres: {
+    card_path: 'wh3_dlc25_nur_inf_plague_ogres',
+    name: 'Plague Ogres',
+  },
+  wh3_dlc25_nur_inf_plague_ogres_great_weapons: {
+    card_path: 'wh3_dlc25_nur_inf_plague_ogres_great_weapons',
+    name: 'Plague Ogres (Great Weapons)',
+  },
+  wh3_dlc25_nur_mon_bile_trolls: {
+    card_path: 'wh3_dlc25_nur_mon_bile_trolls',
+    name: 'Bile Trolls',
+  },
+  wh3_dlc25_nur_mon_soul_grinder_0_ror: {
+    card_path: 'wh3_dlc25_nur_mon_soul_grinder_0_ror',
+    name: 'Noxbringer (Soul Grinder of Nurgle)',
+  },
+  wh3_dlc25_nur_mon_toad_dragon: {
+    card_path: 'wh3_dlc25_nur_mon_toad_dragon',
+    name: 'Toad Dragon',
+  },
+  wh3_dlc25_nur_chieftain_mon_toad_dragon: {
+    card_path: 'wh3_dlc25_nur_mon_toad_dragon',
+    name: 'Toad Dragon (Chieftan)',
+  },
+  wh3_twa10_cth_inf_peasant_archers_ror: {
+    card_path: 'wh3_twa10_cth_inf_peasant_archers_ror',
+    name: 'Bandits of the Silver Road (Peasant Archers)',
+  },
+  wh3_twa10_kho_inf_flesh_hounds_of_khorne_ror: {
+    card_path: 'wh3_twa10_kho_inf_flesh_hounds_of_khorne_ror',
+    name: 'Hounds of the Blood Hunt (Flesh Hounds of Khorne)',
+  },
+  wh3_twa10_ksl_inf_armoured_kossars_ror: {
+    card_path: 'wh3_twa10_ksl_inf_armoured_kossars_ror',
+    name: 'The Watchmen in the Night (Armoured Kossars)',
+  },
+  wh3_twa10_nur_inf_nurglings_ror: {
+    card_path: 'wh3_twa10_nur_inf_nurglings_ror',
+    name: 'The Frolickers Bubonic (Nurglings)',
+  },
+  wh3_twa10_ogr_inf_gnoblars_ror: {
+    card_path: 'wh3_twa10_ogr_inf_gnoblars_ror',
+    name: 'Boglars of the Mad Marshes (Gnoblars)',
+  },
+  wh3_twa10_sla_inf_marauders_spears_ror: {
+    card_path: 'wh3_twa10_sla_inf_marauders_spears_ror',
+    name: 'The Princes of Perfection (Devoted Marauders of Slaanesh - Spears)',
+  },
+  wh3_twa10_tze_inf_blue_horrors_ror: {
+    card_path: 'wh3_twa10_tze_inf_blue_horrors_ror',
+    name: 'The Chromatic Abominations (Blue Horrors of Tzeentch)',
+  },
+  wh_dlc06_dwf_inf_old_grumblers_0: {
+    card_path: 'wh_dlc06_dwf_inf_old_grumblers_0',
+    name: 'The Grumbling Guard (Longbeards - Great Weapons)',
+  },
+  wh_main_dwf_art_flame_cannon_grudge_reward: { hidden: true },
+  wh_main_dwf_inf_hammerers_grudge_reward: { hidden: true },
+  wh_main_dwf_inf_irondrakes_0_grudge_reward: { hidden: true },
+  wh_main_dwf_inf_longbeards_1_grudge_reward: { hidden: true },
+  wh_main_dwf_inf_quarrellers_1_grudge_reward: { hidden: true },
+  wh_main_dwf_inf_slayers_grudge_reward: { hidden: true },
+  wh_main_dwf_veh_gyrocopter_1_grudge_reward: { hidden: true },
+  wh_main_dwf_art_cannon_malakai: { hidden: true },
+  wh_main_dwf_art_flame_cannon_malakai: { hidden: true },
+  wh_main_dwf_art_organ_gun_malakai: { hidden: true },
+  wh_main_dwf_veh_gyrobomber_malakai: { hidden: true },
+  wh_main_dwf_veh_gyrocopter_0_malakai: { hidden: true },
+  wh_main_dwf_veh_gyrocopter_1_malakai: { hidden: true },
 };

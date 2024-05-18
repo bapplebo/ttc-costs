@@ -50,3 +50,7 @@ WH3 card paths to extract from RPFM:
 ui/units/icons
 
 Then compress via IrfanView
+
+unit names from:
+
+text/db/land_units___.loc
