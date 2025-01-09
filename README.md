@@ -54,3 +54,8 @@ Then compress via IrfanView
 unit names from:
 
 text/db/land_units___.loc
+
+Usually the DB ID and the image name are the same, but if a mapping for an image isn't found, check all the recently pulled images from the DLC. Use git diff against the assets to find the new ones.
+
+
+

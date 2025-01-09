@@ -10,6 +10,7 @@ const CONTROVERSIAL_DLC_UNITS = 'controversial_dlc_units';
 const REPUTATION_SALVAGING_DLC_UNITS = 'reputation_salvaging_dlc_units';
 const WH3_DLC20_KEY = 'dlc20_units';
 const DLC_25_UNITS = 'dlc_25_units';
+const DLC_26_UNITS = 'dlc_26_units';
 
 const WANTED_ORDER = { core: 1, special: 2, rare: 3 };
 
@@ -26,6 +27,7 @@ export const parseFile = (rawText) => {
     ...parseUnits(ast, CONTROVERSIAL_DLC_UNITS),
     ...parseUnits(ast, REPUTATION_SALVAGING_DLC_UNITS),
     ...parseUnits(ast, DLC_25_UNITS),
+    ...parseUnits(ast, DLC_26_UNITS),
   ];
 
   const data = [];

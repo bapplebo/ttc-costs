@@ -4901,6 +4901,116 @@ export const unitNamesAndCards = {
     card_path: 'wh_dlc06_dwf_inf_old_grumblers_0',
     name: 'The Grumbling Guard (Longbeards - Great Weapons)',
   },
+  // DLC_26
+  wh3_main_grn_inf_goblins_sword_shield: {
+    card_path: 'wh3_main_grn_inf_goblins_sword_shield',
+    name: 'Goblins',
+  },
+  wh3_main_grn_inf_orc_boyz_spear_shield: {
+    card_path: 'wh3_main_grn_inf_orc_boyz_spear_shield',
+    name: 'Orc Boyz (Spears)',
+  },
+  wh3_dlc26_grn_inf_black_orcs_shield: {
+    card_path: 'wh3_dlc26_grn_inf_black_orcs_shield',
+    name: 'Black Orcs',
+  },
+  wh3_dlc26_grn_art_bolt_throwa: {
+    card_path: 'wh3_dlc26_grn_art_bolt_throwa',
+    name: 'Goblin Bolt Throwa',
+  },
+  wh3_dlc26_grn_mon_colossal_squig: {
+    card_path: 'wh3_dlc26_grn_mon_colossal_squig',
+    name: 'Colossal Squig',
+  },
+  wh3_dlc26_grn_mon_arachnarok_spider_flinger: {
+    card_path: 'wh3_dlc26_grn_arachnarok_spider_flinger',
+    name: 'Arachnarok Spider (Flinger)',
+  },
+  wh3_dlc26_grn_inf_rugluds_armoured_orcs: {
+    card_path: 'wh3_dlc26_grn_inf_rugluds_armoured_orcs',
+    name: "Ruglud's Armoured Orcs",
+  },
+  wh3_dlc26_grn_art_bolt_throwa_ror: {
+    card_path: 'wh3_dlc26_grn_art_bolt_throwa_ror',
+    name: "Snagla's Deff Throwa (Goblin Bolt Throwa)",
+  },
+  wh3_dlc26_grn_mon_colossal_squig_ror: {
+    card_path: 'wh3_dlc26_grn_mon_colossal_squig_ror',
+    name: 'Da Acid Burpa (Colossal Squig)',
+  },
+  wh3_dlc26_kho_inf_khorngors: {
+    card_path: 'wh3_dlc26_kho_inf_khorngors',
+    name: 'Khorngors',
+  },
+  wh3_dlc26_kho_inf_skullreapers: {
+    card_path: 'wh3_dlc26_kho_inf_skullreapers',
+    name: 'Skullreapers',
+  },
+  wh3_dlc26_kho_mon_bloodbeast_of_khorne: {
+    card_path: 'wh3_dlc26_kho_mon_bloodbeast_of_khorne',
+    name: 'Bloodbeasts of Khorne',
+  },
+  wh3_dlc26_kho_inf_wrathmongers: {
+    card_path: 'wh3_dlc26_kho_inf_wrathmongers',
+    name: 'Wrathmongers',
+  },
+  wh3_dlc26_kho_mon_slaughterbrute: {
+    card_path: 'wh3_dlc26_kho_mon_slaughterbrute',
+    name: 'Slaughterbrute',
+  },
+  wh3_dlc26_kho_inf_wrathmongers_ror: {
+    card_path: 'wh3_dlc26_kho_inf_wrathmongers_ror',
+    name: 'Bloodwake Berserkers (Wrathmongers)',
+  },
+  wh3_dlc26_kho_veh_skullcannon_ror: {
+    card_path: 'wh3_dlc26_kho_veh_skullcannon_ror',
+    name: 'Hellforged Bellowers (Skullcannon)',
+  },
+  wh3_dlc26_ogr_inf_golgfags_maneaters: {
+    card_path: 'wh3_dlc26_ogr_inf_golgfags_maneaters',
+    name: "Golgfag's Maneaters",
+  },
+  wh3_dlc26_ogr_inf_pigback_riders: {
+    card_path: 'wh3_dlc26_ogr_inf_pigback_riders',
+    name: 'Pigback Riders',
+  },
+  wh3_dlc26_ogr_mon_blood_vultures: {
+    card_path: 'wh3_dlc26_ogr_mon_blood_vultures',
+    name: 'Blood Vultures',
+  },
+  wh3_dlc26_ogr_mon_yhetees: {
+    card_path: 'wh3_dlc26_ogr_mon_yhetees',
+    name: 'Yhetees',
+  },
+  wh3_dlc26_ogr_mon_thundertusk: {
+    card_path: 'wh3_dlc26_ogr_mon_thundertusk',
+    name: 'Thundertusk',
+  },
+  wh3_dlc26_ogr_inf_pigback_riders_ror: {
+    card_path: 'wh3_dlc26_ogr_inf_pigback_riders_ror',
+    name: 'Piggyback Knights (Pigback Riders)',
+  },
+  wh3_dlc26_ogr_mon_yhetees_ror: {
+    card_path: 'wh3_dlc26_ogr_mon_yhetees_ror',
+    name: 'Amblepeak Greybacks (Yhetees)',
+  },
+  wh3_dlc26_ogr_inf_eshin_maneater_ror: {
+    card_path: 'wh3_dlc26_ogr_inf_eshin_maneater_ror',
+    name: 'Eshin Maneater',
+  },
+  wh3_dlc26_bst_inf_khorngors: {
+    card_path: 'wh3_dlc26_kho_inf_khorngors',
+    name: 'Khorngors',
+  },
+  wh3_dlc26_chs_inf_chosen_mkho_ror: {
+    card_path: 'wh3_dlc26_chs_inf_chosen_mkho_ror',
+    name: 'The Slaughtergard (Chosen of Khorne - Halberds)',
+  },
+  wh3_main_vmp_inf_grave_guard_2: {
+    card_path: 'wh3_main_vmp_grave_guard_halberds',
+    name: 'Grave Guard (Halberds)',
+  },
+  // HIDDEN
   wh_main_dwf_art_flame_cannon_grudge_reward: { hidden: true },
   wh_main_dwf_inf_hammerers_grudge_reward: { hidden: true },
   wh_main_dwf_inf_irondrakes_0_grudge_reward: { hidden: true },
